@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset='utf-8'/>
+   <title>TUGAS 6 MYSQL</title>
+ </head>
+ <body style="background-color:black;color:white;">
+   <h1>Tugas 6</h1>
+   <ol>
+     <li>
+       Buat tabel latihan_1 dengan dua kolom, a dan b dengan spesifikasi:
+       <ul>
+         <li>Kolom a di definisikan sebagai INTEGER, memiliki atribut UNSIGNED, di set sebagai PRIMARY KEY dan penomoran otomatis AUTO_INCREMENT.</li>
+         <li>Kolom b di definisikan sebagai VARCHAR yang sanggup menampung maksimal 10 karakter. Jika kolom ini tidak diisi, string ‘merdeka’ akan menjadi string default. Kolom b juga tidak bisa diisi nilai NULL.</li>
+         <li>Tabel latihan_1 menggunakan storage engine MyISAM serta charset ascii. Nomor urut auto increment dimulai dari 100.</li>
+         <li>Silahkan buat tabel latihan_1 dengan spesifikasi diatas sebelum lanjut ke nomor 2.</li>
+       </ul>
+     </li>
+     <li>Ubah storage engine tabel latihan_1 menjadi InnoDB.</li>
+     <li>Ubah nama kolom b menjadi c dari tabel latihan_1, dimana kolom c ini juga memiliki tipe data yang sama dengan kolom b (termasuk atribut).</li>
+     <li>Tambah kolom baru bernama b ke dalam tabel latihan_1. Kolom b di definisikan dengan tipe data DATE. Jika kolom b tidak diisi nilai, tanggal 01-01-2018 akan menjadi nilai default. Tempatkan kolom b setelah kolom a. Artinya, setelah langkah ini dijalankan tabel latihan_1 akan memiliki 3 kolom: a, b dan c.</li>
+     <li>Buat tabel latihan_2 yang memiliki struktur sama persis seperti tabel latihan_1.</li>
+     <li>Ubah storage engine tabel latihan_2 menjadi MEMORY.</li>
+     <li>Ubah nama tabel latihan_2 menjadi latihan_3.</li>
+     <li>Buat temporary table dengan nama latihan_4. Tabel ini berisi 1 kolom a sebagai TIMESTAMP.</li>
+     <li>Hapus tabel latihan_1, latihan_3 dan latihan_4 dalam 1 perintah query.</li>
+   </ol>
+   <br/>
+   <h1>Jawaban</h1>
+   <ol>
+     <li>
+       Buat tabel latihan_1 dengan dua kolom, a dan b dengan spesifikasi:
+       <ul>
+         <li>Kolom a di definisikan sebagai INTEGER, memiliki atribut UNSIGNED, di set sebagai PRIMARY KEY dan penomoran otomatis AUTO_INCREMENT.</li>
+         <li>Kolom b di definisikan sebagai VARCHAR yang sanggup menampung maksimal 10 karakter. Jika kolom ini tidak diisi, string ‘merdeka’ akan menjadi string default. Kolom b juga tidak bisa diisi nilai NULL.</li>
+         <li>Tabel latihan_1 menggunakan storage engine MyISAM serta charset ascii. Nomor urut auto increment dimulai dari 100.</li>
+         <li>Silahkan buat tabel latihan_1 dengan spesifikasi diatas sebelum lanjut ke nomor 2.</li>
+       </ul>
+       <img src='src/s1.PNG'/>
+       <img src='src/s1-.png'/>
+     </li>
+     <li>
+       Ubah storage engine tabel latihan_1 menjadi InnoDB.
+       <img src='src/s2.png'/>
+     </li>
+     <li>
+       Ubah nama kolom b menjadi c dari tabel latihan_1, dimana kolom c ini juga memiliki tipe data yang sama dengan kolom b (termasuk atribut).
+       <img src='src/s3.png'/>
+     </li>
+     <li>
+       Tambah kolom baru bernama b ke dalam tabel latihan_1. Kolom b di definisikan dengan tipe data DATE. Jika kolom b tidak diisi nilai, tanggal 01-01-2018 akan menjadi nilai default. Tempatkan kolom b setelah kolom a. Artinya, setelah langkah ini dijalankan tabel latihan_1 akan memiliki 3 kolom: a, b dan c.
+       <img src='src/s4.png'/>
+     </li>
+     <li>
+       Buat tabel latihan_2 yang memiliki struktur sama persis seperti tabel latihan_1.
+       <img src='src/s5.png'/>
+     </li>
+     <li>
+       Ubah storage engine tabel latihan_2 menjadi MEMORY.
+       <img src='src/s6.png'/>
+     </li>
+     <li>
+       Ubah nama tabel latihan_2 menjadi latihan_3.
+       <img src='src/s7.png'/>
+     </li>
+     <li>
+       Buat temporary table dengan nama latihan_4. Tabel ini berisi 1 kolom a sebagai TIMESTAMP.
+       <img src='src/s8.png'/>
+     </li>
+     <li>
+       Hapus tabel latihan_1, latihan_3 dan latihan_4 dalam 1 perintah query.
+       <img src='src/s9.png'/>
+     </li>
+   </ol>
+ </body>
+</html>
